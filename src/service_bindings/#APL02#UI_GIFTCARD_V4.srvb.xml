@@ -2,17 +2,17 @@
 <edmx:Edmx Version="4.0"
   xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx">
   <!-- OData V4 UI Service Binding for Gift Card scenario -->
-  <!-- Object name : ZXE4_UI_GIFTCARD_V4                  -->
+  <!-- Object name : /APL02/UI_GIFTCARD_V4                  -->
   <!-- Binding type: OData V4 - UI                        -->
-  <!-- Service Def: ZXE4_SD_GIFTCARD                      -->
+  <!-- Service Def: /APL02/SD_GIFTCARD                      -->
   <edmx:DataServices>
     <sap:ServiceBinding
       xmlns:sap="http://www.sap.com/adt/serviceBinding"
-      Name="ZXE4_UI_GIFTCARD_V4"
+      Name="/APL02/UI_GIFTCARD_V4"
       Description="Gift Card Details - OData V4 UI Service"
       BindingType="ODATA"
       BindingSubtype="UI"
       BindingVersion="V4"
-      ServiceDefinition="ZXE4_SD_GIFTCARD" />
+      ServiceDefinition="/APL02/SD_GIFTCARD" />
   </edmx:DataServices>
 </edmx:Edmx>

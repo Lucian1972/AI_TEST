@@ -8,7 +8,7 @@
   }
 }
 @Search.searchable: true
-annotate view ZXE4_C_GIFTCARD with
+annotate view /APL02/C_GIFTCARD with
 {
   @UI.facet: [ {
     id: 'idIdentification',
@@ -33,7 +33,7 @@ annotate view ZXE4_C_GIFTCARD with
   @Search.defaultSearchElement: true
   @Consumption.valueHelpDefinition: [ {
     entity: {
-      name: 'ZXE4_GIFTCARDVH',
+      name: '/APL02/GIFTCARDVH',
       element: 'Giftcardnumber'
     }
   } ]

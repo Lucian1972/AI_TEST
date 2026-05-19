@@ -2,9 +2,9 @@
 @AccessControl.authorizationCheck: #NOT_REQUIRED
 @Metadata.allowExtensions: true
 
-define root view entity ZXE4_C_GIFTCARD
+define root view entity /APL02/C_GIFTCARD
   provider contract transactional_query
-  as projection on ZXE4_I_GIFTCARD
+  as projection on /APL02/I_GIFTCARD
 {
   key SapUUID,
       Giftcardnumber,

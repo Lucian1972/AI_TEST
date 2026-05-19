@@ -1,5 +1,5 @@
 @EndUserText.label: 'Sales Order Projection View Extension'
-extend view C_SalesOrderManage with ZXE4_C_SALESORDERMANAGE_EXT
+extend view C_SalesOrderManage with /APL02/C_SALESORDERMANAGE_EXT
   association [0..1] to I_Currency as _zz_giftcardcurrency_sdh
     on $projection.zz_giftcardcurrency_sdh = _zz_giftcardcurrency_sdh.Currency
 {

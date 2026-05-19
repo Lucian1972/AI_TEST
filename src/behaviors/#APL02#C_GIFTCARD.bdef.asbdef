@@ -2,7 +2,7 @@ projection;
 strict ( 2 );
 use draft;
 
-define behavior for ZXE4_C_GIFTCARD alias GiftCard
+define behavior for /APL02/C_GIFTCARD alias GiftCard
 {
   use create;
   use update;

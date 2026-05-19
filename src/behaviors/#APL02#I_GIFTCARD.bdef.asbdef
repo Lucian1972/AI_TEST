@@ -1,10 +1,10 @@
-managed implementation in class zbp_xe4_i_giftcard unique;
+managed implementation in class /apl02/i_giftcard unique;
 strict ( 2 );
 with draft;
 
-define behavior for ZXE4_I_GIFTCARD alias GiftCard
-persistent table zxe4_giftcard
-draft table zxe4_giftcard_d
+define behavior for /APL02/I_GIFTCARD alias GiftCard
+persistent table /apl02/giftcard
+draft table /apl02/giftcard_d
 lock master total etag LocalLastChanged
 etag master LastChanged
 {
@@ -22,7 +22,7 @@ etag master LastChanged
   field ( readonly ) LocalLastChanged, LastChanged;
   field ( mandatory ) Giftcardnumber, SapDescription;
 
-  mapping for zxe4_giftcard
+  mapping for /apl02/giftcard
   {
     SapUUID          = sap_uuid;
     Giftcardnumber   = giftcardnumber;

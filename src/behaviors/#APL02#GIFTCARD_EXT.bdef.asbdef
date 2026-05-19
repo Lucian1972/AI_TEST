@@ -1,10 +1,10 @@
 extension using interface i_salesordertp
-  implementation in class zbp_xe4_giftcard_ext unique;
+  implementation in class /apl02/giftcard_ext unique;
 
 extend behavior for SalesOrder
 {
   action ( authorization : update, features : instance ) zz_use_gift_card
-    parameter ZXE4_ASSIGNGIFTCARDTOSOP result [0..1] $self;
+    parameter /APL02/ASSIGNGIFTCARDTOSOP result [0..1] $self;
 
   field ( readonly ) zz_giftcardamount_sdh, zz_giftcardcurrency_sdh;
 

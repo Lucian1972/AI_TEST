@@ -7,8 +7,8 @@
   sizeCategory: #S,
   dataClass: #MASTER
 }
-define root view entity ZXE4_I_GIFTCARD
-  as select from zxe4_giftcard
+define root view entity /APL02/I_GIFTCARD
+  as select from /apl02/giftcard
 {
   key sap_uuid                                    as SapUUID,
       giftcardnumber                              as Giftcardnumber,

@@ -3,7 +3,7 @@
 *"* definitions
 
 "----------------------------------------------------------------------
-" Local handler for Sales Order extension (ZXE4_GIFTCARD_EXT)
+" Local handler for Sales Order extension (/APL02/GIFTCARD_EXT)
 " - Implements the zz_use_gift_card action on SalesOrder
 " - Enables the action only when TotalNetAmount >= 50 EUR
 " - Deducts the gift card value via a DRV1 pricing element
@@ -37,7 +37,7 @@ CLASS lhc_salesorder IMPLEMENTATION.
   METHOD zz_use_gift_card.
     " Read the matching gift card record
     SELECT giftcardnumber, amount_v, amount_c
-      FROM zxe4_giftcard
+      FROM /apl02/giftcard
       FOR ALL ENTRIES IN @it_keys
       WHERE giftcardnumber = @it_keys-%param-Giftcardnumber
       INTO TABLE @DATA(lt_discount).

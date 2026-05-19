@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Business Catalog: ZBC_XE4_GIFTCARD         -->
+<!-- Business Catalog: /APL02/GIFTCARD         -->
 <!-- Includes the custom IAM app for the Fiori  -->
 <!-- Gift Card Details app                      -->
 <BCAT
   xmlns="http://www.sap.com/adt/businessCatalog"
-  Name="ZBC_XE4_GIFTCARD"
+  Name="/APL02/GIFTCARD"
   Description="Business Catalog for Gift Card Scenario">
   <Apps>
     <!-- System-generated job catalog SAJC app (if applicable) -->
     <App IAMApp="ZXE3_FITFOR_APJC_SAJC" />
     <!-- Custom Fiori Gift Card UI app -->
-    <App IAMApp="ZXE4_GIFTCARD_UI_EXT" />
+    <App IAMApp="/APL02/GIFTCARD_UI_EXT" />
   </Apps>
 </BCAT>

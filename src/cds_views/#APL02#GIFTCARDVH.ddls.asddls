@@ -13,8 +13,8 @@
 @ObjectModel.representativeKey: 'SapUUID'
 @Consumption.valueHelpDefault.fetchValues: #AUTOMATICALLY_WHEN_DISPLAYED
 @Consumption.ranked: true
-define view entity ZXE4_GIFTCARDVH
-  as select from ZXE4_I_GIFTCARD as GiftCard
+define view entity /APL02/GIFTCARDVH
+  as select from /APL02/I_GIFTCARD as GiftCard
 {
   @UI.hidden: true
   key GiftCard.SapUUID,

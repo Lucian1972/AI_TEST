@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- IAM App: ZXE4_GIFTCARD_UI_EXT              -->
+<!-- IAM App: /APL02/GIFTCARD_UI_EXT              -->
 <!-- Application Type: EXT (External App)       -->
 <!-- Linked to Fiori app descriptor             -->
-<!--   ZXE4_GIFTCARD_UI5R                       -->
+<!--   /APL02/GIFTCARD_UI5R                       -->
 <IAM_APP
   xmlns="http://www.sap.com/adt/iamApp"
-  Name="ZXE4_GIFTCARD_UI"
+  Name="/APL02/GIFTCARD_UI"
   Description="IAM App for Gift Card Scenario"
   AppType="EXT">
   <General>
-    <FioriLaunchpadAppDescrId>ZXE4_GIFTCARD_UI5R</FioriLaunchpadAppDescrId>
+    <FioriLaunchpadAppDescrId>/APL02/GIFTCARD_UI5R</FioriLaunchpadAppDescrId>
   </General>
   <Authorizations>
     <!-- No additional authorization objects required beyond the business catalog -->

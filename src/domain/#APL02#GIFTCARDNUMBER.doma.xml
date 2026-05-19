@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Domain: ZXE4_GIFTCARDNUMBER                -->
+<!-- Domain: /APL02/GIFTCARDNUMBER                -->
 <!-- Used as the NUMC(10) domain for gift card  -->
 <!-- number range and data element              -->
 <abapGit version="v1.0.0" serializer="LCL_OBJECT_DOMA" serializer_version="v1.0.0">
  <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
   <asx:values>
    <DD01V>
-    <DOMNAME>ZXE4_GIFTCARDNUMBER</DOMNAME>
+    <DOMNAME>/APL02/GIFTCARDNUMBER</DOMNAME>
     <DDLANGUAGE>E</DDLANGUAGE>
     <DATATYPE>NUMC</DATATYPE>
     <LENG>000010</LENG>

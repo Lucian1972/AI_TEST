@@ -3,7 +3,7 @@
 *"* definitions
 
 "----------------------------------------------------------------------
-" Local handler for GiftCard entity (ZXE4_I_GIFTCARD)
+" Local handler for GiftCard entity (/APL02/I_GIFTCARD)
 "----------------------------------------------------------------------
 CLASS lhc_giftcard DEFINITION INHERITING FROM cl_abap_behavior_handler.
   PRIVATE SECTION.

@@ -3,13 +3,13 @@
 @AbapCatalog.tableCategory : #TRANSPARENT
 @AbapCatalog.deliveryClass : #A
 @AbapCatalog.dataMaintenance : #RESTRICTED
-define table zxe4_giftcard_d {
+define table /apl02/giftcard_d {
   key mandt             : abap.clnt not null;
   key sapuuid           : sysuuid_x16 not null;
-  giftcardnumber        : zxe4_giftcardnumber;
-  sapdescription        : zxe4_giftcarddesc;
-  @Semantics.amount.currencyCode : 'zxe4_giftcard_d.amountc'
-  amountv               : zxe4_giftcardamt;
+  giftcardnumber        : /apl02/giftcardnumber;
+  sapdescription        : /apl02/giftcarddesc;
+  @Semantics.amount.currencyCode : '/apl02/giftcard_d.amountc'
+  amountv               : /apl02/giftcardamt;
   amountc               : abap.cuky;
   locallastchanged      : abp_locinst_lastchange_tstmpl;
   lastchanged           : abp_lastchange_tstmpl;
